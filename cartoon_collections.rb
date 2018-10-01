@@ -18,7 +18,7 @@ def find_the_cheese(array)
   cheese_types.each do |n|
     if array.include?(n)
       return n
-    else nil
+    else return nil
     end
   end
 end
